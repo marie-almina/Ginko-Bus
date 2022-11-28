@@ -17,7 +17,6 @@ const appShellFiles = [
   'maskable_icon.png',
 ];
 
-const contentToCache = appShellFiles;
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
