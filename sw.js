@@ -1,21 +1,22 @@
-
 const cacheName = 'ginkoBus-v1';
 
 const appShellFiles = [
   'index.html',
   'style.css',
   'app.js',
-  'icon-32.png',
-  'icon-64.png',
-  'icon-96.png',
-  'icon-128.png',
-  'icon-168.png',
-  'icon-180.png',
-  'icon-192.png',
-  'icon-256.png',
-  'icon-512.png',
-  'maskable_icon.png',
+  'icons/icon-32.png',
+  'icons/icon-64.png',
+  'icons/icon-96.png',
+  'icons/icon-128.png',
+  'icons/icon-168.png',
+  'icons/icon-180.png',
+  'icons/icon-192.png',
+  'icons/icon-256.png',
+  'icons/icon-512.png',
+  'icons/maskable_icon.png',
 ];
+
+
 
 
 self.addEventListener('install', (e) => {
